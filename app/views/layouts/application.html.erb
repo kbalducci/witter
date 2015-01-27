@@ -7,16 +7,29 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<h1> <%= link_to 'Witter', root_path %></h1>
+<div class="container">
 
-<%= link_to "New Wit", new_wit_path %>
+  <div class="row">
+    <header>
+      <h1> <%= link_to 'Witter', root_path %></h1>
 
+      <%= link_to "New Wit", new_wit_path %>
+    </header>
+  </div>
 
-<%= link_to "New User", new_user_path %>
+  <div class="row">
+    <div class="content">
+      <%= yield %>
+    </div>
+  </div>
 
-<%= link_to 'List Users', users_path %>
+  <div class="row">
+    <footer>
+      <p>made with &hearts; &h;</p>
+    </footer>
+  </div>
 
-<%= yield %>
 
 </body>
+
 </html>

@@ -11,9 +11,10 @@
     </div>
   <% end %>
 
-  <div class='field'>
+  <div class='form-group'>
     <%= f.label :message, "Message" %>
-    <%= f.text_field :message %>
+    <%= f.text_field :message, class: 'form-control', placeholder: "My hilarious wit" %>
+    <p class="help-block">Type Your Message</p>
   </div>
 
   <div class="actions">

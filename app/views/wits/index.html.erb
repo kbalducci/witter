@@ -15,9 +15,9 @@
         <td><%= wit.message %></td>
       </tr>
       <tr>
-        <td><%= link_to 'Show', wit %></td>
+        <td><%= link_to 'Show', wit, class: 'btn btn-primary' %></td>
         <td><%= link_to 'Edit', edit_wit_path(wit) %></td>
-        <td><%= link_to 'Destroy', wit, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Destroy', wit, class: 'btn btn-danger', method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>

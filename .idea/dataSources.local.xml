@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails witter: development" uuid="971ec667-92c0-4264-b27b-bdcb38227420">
+      <first-sync>true</first-sync>
+    </data-source>
+    <data-source name="Rails witter: test" uuid="8a9591a1-0a9d-4c78-b470-1d7377e55a38">
+      <first-sync>true</first-sync>
+    </data-source>
+    <data-source name="Rails witter: production" uuid="b29a24a1-89bb-4a47-8c8e-fe5a5bc12d18">
+      <first-sync>true</first-sync>
+    </data-source>
+  </component>
+</project>
